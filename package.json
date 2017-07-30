@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "start": "bisheng start -c ./site/bisheng.config.js --no-livereload",
+    "site": "bisheng build --ssr -c ./site/bisheng.config.js",
+    "deploy": "antd-tools run clean && npm run site && bisheng gh-pages --push-only"
+  },
+  "dependencies": {
+    "antd": "^2.12.2",
+    "bezier-easing": "^2.0.3",
+    "color-standalone": "^0.11.6",
+    "rc-queue-anim": "^1.2.0",
+    "rc-scroll-anim": "^1.0.7",
+    "rc-tween-one": "^1.3.1",
+    "react-color": "^2.13.4",
+    "react-copy-to-clipboard": "^5.0.0",
+    "react-document-title": "^2.0.3",
+    "react-github-button": "^0.1.11",
+    "react-intl": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "bisheng": "^0.24.2",
+    "css-split-webpack-plugin": "^0.2.3",
+    "dora-plugin-upload": "^0.3.2"
+  }
+}
