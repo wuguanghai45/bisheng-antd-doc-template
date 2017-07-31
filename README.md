@@ -48,7 +48,7 @@ echo "" > alert.md
 
 - 向alert.md写入内容
 
-<pre>
+<code>
 ---
 order: 0
 title:
@@ -74,7 +74,7 @@ ReactDOM.render(
   </div>
 , mountNode);
 ````
-</pre>
+</code>
 
 ## 改完后需要重新启动
 
