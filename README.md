@@ -1,5 +1,9 @@
 对Antd文档管理做了一下抽离简化Antd文档管理主题
 
+# antd 的文档系统有什么优点
+- 首先基于antd团队成员开发的博客服务 https://github.com/benjycui/bisheng
+- 其次漂亮的界面 用来管理文档很合适
+- 最主要的优点是。。他会把markdown里面的特定代码转换成页面包括react
 
 使用方式
 
@@ -73,4 +77,12 @@ ReactDOM.render(
 
 ```
 
+## 改完后需要重新启动
+```
+npm start
+```
 
+
+## 目前只是粗略的更改了一下
+## 更多操作可以跟进https://github.com/ant-design/ant-design/tree/master/components 目录下的各种md文件 目前我也不知道更多操作
+## 希望有人能一起优化一下。。
