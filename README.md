@@ -46,7 +46,7 @@ cd demo
 echo "" > alert.md
 ```
 
-- 向alert.md入内容
+- 向alert.md写入内容
 
 <pre>
 ---
