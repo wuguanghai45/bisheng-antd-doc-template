@@ -1,17 +1,69 @@
-简化Antd文档主题 # 未完成
+对Antd文档管理做了一下抽离简化Antd文档管理主题
 
-## 添加组件文档方式
-- 在文件 docs/react 下新增文件 xxx.zh-CN.md xxx.en-US.md
- zh-CN 表示中文文档 en-US.md 表示英文文档
-模板 order 好像不能少
-```
----
-order: 2
-title: 这个是测试
----
-```
 
-## 启动方式
+使用方式
+
 ```
 npm start
 ```
+
+# 写文档方式
+
+## 创建文档
+- 在components文件目录下创建组件文件夹(注意不能带大写) helloworld
+
+```
+cd components
+mkdir helloworld
+```
+
+- 写入内容
+```
+---
+title: HelloWorld
+subtitle: hello
+---
+
+Hello world
+```
+## 创建文档demo
+
+- 在helloworld 文件里面创建文件夹demo并创建文件alert.md
+
+```
+mkdir demo
+echo "" > alert.md
+```
+
+- 写入内容 alert.md
+
+```
+---
+order: 0
+title:
+  zh-CN: helloWord
+  en-US: helloWord
+---
+
+## zh-CN
+这就是个helloWorld
+
+## en-US
+
+This is helloWorld
+
+````jsx
+let handleClick = () => {
+  alert("hello world");
+};
+
+ReactDOM.render(
+  <div>
+    <button type="primary" onClick={handleClick}>Hello World</button>
+  </div>
+, mountNode);
+````
+
+```
+
+
