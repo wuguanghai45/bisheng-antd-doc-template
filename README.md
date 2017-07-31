@@ -48,6 +48,9 @@ echo "" > alert.md
 
 - 向alert.md写入内容
 
+https://raw.githubusercontent.com/wuguanghai45/antdBishengTheme/master/alertHelloWorld.md
+
+
 ## 改完后需要重新启动
 
 ```
