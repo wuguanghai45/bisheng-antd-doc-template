@@ -63,6 +63,7 @@ title:
 
 This is helloWorld
 
+<pre>
 ````jsx
 let handleClick = () => {
   alert("hello world");
@@ -74,6 +75,7 @@ ReactDOM.render(
   </div>
 , mountNode);
 ````
+</pre>
 
 ```md
 
