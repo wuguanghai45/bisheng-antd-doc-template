@@ -1,7 +1,6 @@
 ---
-category: Components
-type: General
-title: Button
+category: 组件
+title: 按钮
 subtitle: 按钮
 ---
 
