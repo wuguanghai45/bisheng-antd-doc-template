@@ -63,7 +63,7 @@ title:
 
 This is helloWorld
 
-\`\`\`\`jsx
+````jsx
 let handleClick = () => {
   alert("hello world");
 };
@@ -73,9 +73,9 @@ ReactDOM.render(
     <button type="primary" onClick={handleClick}>Hello World</button>
   </div>
 , mountNode);
-\`\`\`\`
+````
 
-```
+```md
 
 ## 改完后需要重新启动
 
