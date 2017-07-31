@@ -48,7 +48,7 @@ echo "" > alert.md
 
 - 向alert.md入内容
 
-```
+```md
 ---
 order: 0
 title:
@@ -63,7 +63,7 @@ title:
 
 This is helloWorld
 
-````jsx
+\`\`\`\`jsx
 let handleClick = () => {
   alert("hello world");
 };
@@ -73,16 +73,19 @@ ReactDOM.render(
     <button type="primary" onClick={handleClick}>Hello World</button>
   </div>
 , mountNode);
-````
+\`\`\`\`
 
 ```
 
 ## 改完后需要重新启动
+
 ```
 npm start
 ```
 
-
-## 目前只是粗略的更改了一下
-## 更多操作可以跟进https://github.com/ant-design/ant-design/tree/master/components 目录下的各种md文件 目前我也不知道更多操作
-## 希望有人能一起优化一下。。
+##  TODO
+- 目前只是粗略的更改了一下
+- 更多操作可以跟进https://github.com/ant-design/ant-design/tree/master/components 目录下的各种md文件
+- 更多的操作探索
+- 更具体的使用文档
+- 能否进一步抽离
