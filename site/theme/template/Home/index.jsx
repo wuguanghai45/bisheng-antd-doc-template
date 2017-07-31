@@ -99,13 +99,9 @@ function getStyle() {
 
 function Home(props) {
   return (
-    <DocumentTitle title={`Ant Design - ${props.intl.formatMessage({ id: 'app.home.slogan' })}`}>
+    <DocumentTitle title={props.intl.formatMessage({ id: 'app.home.title' })}>
       <div className="main-wrapper">
         <Banner {...props} />
-        <Page1 {...props} />
-        <Page2 {...props} />
-        <Page3 {...props} />
-        <Page4 {...props} />
         <style dangerouslySetInnerHTML={{ __html: getStyle() }} />
       </div>
     </DocumentTitle>
