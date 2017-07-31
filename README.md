@@ -48,6 +48,7 @@ echo "" > alert.md
 
 - 向alert.md入内容
 
+    <pre>
     ---
     order: 0
     title:
@@ -62,7 +63,6 @@ echo "" > alert.md
 
     This is helloWorld
 
-    <pre>
     ````jsx
     let handleClick = () => {
       alert("hello world");
