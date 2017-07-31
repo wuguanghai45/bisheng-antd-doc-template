@@ -17,6 +17,12 @@ cd components
 mkdir helloworld
 ```
 
+- 创建文件index.zh-CN.md(这里的zh-CN表示中文文档， 如果换成en-US的话表示英文文档)
+
+```
+echo "" > index.zh-CN.md
+```
+
 - 写入内容
 ```
 ---
@@ -32,10 +38,11 @@ Hello world
 
 ```
 mkdir demo
+cd demo
 echo "" > alert.md
 ```
 
-- 写入内容 alert.md
+- 向alert.md入内容
 
 ```
 ---
