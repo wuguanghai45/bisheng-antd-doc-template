@@ -20,6 +20,10 @@
   "devDependencies": {
     "babel-plugin-transform-runtime": "^6.23.0",
     "bisheng": "^0.24.2",
+    "bisheng-plugin-antd": "^0.15.0",
+    "bisheng-plugin-description": "^0.1.1",
+    "bisheng-plugin-react": "^0.5.0",
+    "bisheng-plugin-toc": "^0.4.0",
     "css-split-webpack-plugin": "^0.2.3",
     "dora-plugin-upload": "^0.3.2"
   }
