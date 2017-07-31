@@ -48,32 +48,33 @@ echo "" > alert.md
 
 - 向alert.md入内容
 
-    <pre>
-    ---
-    order: 0
-    title:
-      zh-CN: helloWord
-      en-US: helloWord
-    ---
+<pre>
+---
+order: 0
+title:
+  zh-CN: helloWord
+  en-US: helloWord
+---
 
-    ## zh-CN
-    这就是个helloWorld
+## zh-CN
+这就是个helloWorld
 
-    ## en-US
+## en-US
 
-    This is helloWorld
+This is helloWorld
 
-    ````jsx
-    let handleClick = () => {
-      alert("hello world");
-    };
+````jsx
+let handleClick = () => {
+  alert("hello world");
+};
 
-    ReactDOM.render(
-      <div>
-        <button type="primary" onClick={handleClick}>Hello World</button>
-      </div>
-    , mountNode);
-    ````
+ReactDOM.render(
+  <div>
+    <button type="primary" onClick={handleClick}>Hello World</button>
+  </div>
+, mountNode);
+````
+</pre>
 
 ## 改完后需要重新启动
 
