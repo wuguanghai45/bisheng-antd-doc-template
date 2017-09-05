@@ -17,11 +17,11 @@ vi site/bisheng.config.js
 
 # 主题的一些配置
 
-antd的文档界面一些配置
-编译的配置文件是在 site/bisheng.config.js
-路由的一些配置是在 site/theme/index.js
-中文菜单配置 site/theme/zh-CN.js
-英文菜单配置 site/theme/en-US.js
+## antd的文档界面一些配置
+- 编译的配置文件是在 site/bisheng.config.js
+- 路由的一些配置是在 site/theme/index.js
+- 中文菜单配置 site/theme/zh-CN.js
+- 英文菜单配置 site/theme/en-US.js
 
 使用方式
 ```
