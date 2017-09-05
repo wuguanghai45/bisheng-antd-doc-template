@@ -5,11 +5,21 @@
 - 其次漂亮的界面 用来管理文档很合适
 - 最主要的优点是。。他会把markdown里面的特定代码转换成页面包括react
 
-使用方式
+# 我自己再博客上面的应用
 
+- https://wuguanghai45.github.io/docs/react/introduce-cn
+- 项目目录 https://github.com/wuguanghai45/blog/tree/master/demos
+
+# 配置文件
+```
+vi site/bisheng.config.js
+```
+
+使用方式
 ```
 npm start
 ```
+
 
 # 写文档方式
 
