@@ -1,0 +1,1 @@
+webpackJsonp([2,6],{764:function(t,e){t.exports={content:["article"],meta:{order:2,title:"It's a test",filename:"docs/react/text.en-US.md"},toc:["ul"]}}});
